@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nammaweb AI Research Labs — Applied Generative AI Systems Fellowship</title>
+<meta name="description" content="A six-month one-to-one Applied Generative AI Systems Fellowship from Nammaweb AI Research Labs, Bengaluru. DPIIT recognised (DIPP199820), ISO 21001:2018 certified.">
+<meta name="theme-color" content="#020617">
+<meta property="og:title" content="Applied Generative AI Systems Fellowship — Nammaweb AI Research Labs">
+<meta property="og:description" content="Twenty-four weeks, three production capstones, one mentor. DPIIT recognised and ISO 21001:2018 certified.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/nammaweb-logo.png">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="assets/img/favicon-64.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<!-- ======================================================== status bar -->
+<div class="statusbar hidden" id="status-bar">
+  <div class="shell">
+    <span>Logged in: <strong>Srinivas</strong> (1:1 Fellowship Active) &nbsp;|&nbsp; Mentor: <strong>Mallikarjun S Nandyal</strong></span>
+    <button type="button" id="status-signout">Sign out</button>
+  </div>
+</div>
+
+<!-- ============================================================= header -->
+<header class="nav">
+  <div class="shell nav-inner">
+    <a class="brand" href="#top">
+      <img src="assets/img/nammaweb-logo.png" alt="Nammaweb AI Research Labs">
+      <span class="brand-text">
+        <b>Nammaweb AI Research Labs</b>
+        <span>DPIIT DIPP199820 · ISO 21001:2018</span>
+      </span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#recognition">Recognition</a>
+      <a href="#programme">Programme</a>
+      <a href="#syllabus">Curriculum</a>
+      <a href="#careers">Career outcomes</a>
+      <a href="#enrol">Fees</a>
+      <a href="#command-centre">Mentee centre</a>
+      <a href="#certificate">Certificate</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-ghost btn-sm" href="#enrol">Enrol</a>
+      <button class="btn btn-primary btn-sm" type="button" id="nav-auth" data-open-login>Mentee 1:1 login</button>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#recognition">Recognition</a>
+    <a href="#programme">Programme</a>
+    <a href="#syllabus">Curriculum</a>
+    <a href="#careers">Career outcomes</a>
+    <a href="#enrol">Fees and payment</a>
+    <a href="#command-centre">Mentee command centre</a>
+    <a href="#certificate">Certificate</a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- =============================================================== hero -->
+<section class="hero">
+  <div class="shell">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow">Admissions open · Cohort of one</span>
+        <h1>One mentor. Twenty-four weeks. Three systems that run in production.</h1>
+        <p class="hero-lede">
+          The Applied Generative AI Systems Fellowship is a six-month one-to-one programme for engineers
+          who already ship software and now want to build retrieval, agent and on-device AI systems that
+          hold up under load, audit and interview.
+        </p>
+        <div class="hero-chips">
+          <span class="chip chip-emerald"><span class="dot"></span>DPIIT recognised · DIPP199820</span>
+          <span class="chip chip-cyan"><span class="dot"></span>ISO 21001:2018 certified</span>
+          <span class="chip"><span class="dot"></span>Whitefield, Bengaluru</span>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#enrol">
+            <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 12V8H6a2 2 0 010-4h12v4M4 6v12a2 2 0 002 2h14v-4"/><path d="M18 12a2 2 0 000 4h4v-4z"/></svg>
+            Reserve the seat — ₹45,000
+          </a>
+          <a class="btn btn-ghost" href="#syllabus">Read all 24 weeks</a>
+          <button class="btn btn-outline" type="button" data-open-login>Mentee login</button>
+        </div>
+      </div>
+      <div class="hero-mark">
+        <img src="assets/img/nammaweb-logo.png" alt="Nammaweb AI Research Labs — Born to Innovate. Built to Inspire.">
+      </div>
+    </div>
+
+    <div class="hero-strip">
+      <div><b>24</b><span>weeks, week-by-week deliverables</span></div>
+      <div><b>3</b><span>enterprise capstones, deployed live</span></div>
+      <div><b>1:1</b><span>mentorship with the Director</span></div>
+      <div><b>&lt;50 ms</b><span>retrieval latency target from week 4</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================== recognition -->
+<section class="section" id="recognition">
+  <div class="shell">
+    <div class="section-head">
+      <span class="eyebrow">Registrations and recognition</span>
+      <h2>The credentials behind the certificate</h2>
+      <p>
+        Nammaweb LLP is recognised by the Government of India as a startup working in education and skill
+        development, and its education management system is certified to ISO 21001:2018. Both records are
+        reproduced here in full.
+      </p>
+    </div>
+
+    <div class="cert-wall">
+      <article class="card cert-card">
+        <div class="cert-img">
+          <img src="assets/img/dpiit-recognition.jpg" alt="DPIIT Certificate of Recognition number DIPP199820 issued to Nammaweb LLP" loading="lazy">
+        </div>
+        <div class="cert-body">
+          <h3>DPIIT Certificate of Recognition</h3>
+          <p class="muted" style="font-size:.92rem;margin:0">
+            Issued by the Department for Promotion of Industry and Internal Trade, Ministry of Commerce &amp;
+            Industry, recognising Nammaweb LLP as a startup in the Education industry, Skill Development sector.
+          </p>
+          <div class="cert-meta">
+            <span class="chip mono">No. DIPP199820</span>
+            <span class="chip mono">Issued 15-04-2025</span>
+            <span class="chip mono">Valid to 19-03-2035</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card cert-card">
+        <div class="cert-img">
+          <img src="assets/img/iso-21001.jpg" alt="ISO 21001:2018 certificate of registration issued to Namma Web by Anglia Compliance Group" loading="lazy">
+        </div>
+        <div class="cert-body">
+          <h3>ISO 21001:2018 Certificate of Registration</h3>
+          <p class="muted" style="font-size:.92rem;margin:0">
+            Assessed by Anglia Compliance Group against the Educational Organizations Management System
+            standard, covering educational services, web development, IT services and digital solutions.
+          </p>
+          <div class="cert-meta">
+            <span class="chip mono">ISO 21001:2018</span>
+            <span class="chip mono">Anglia Compliance Group</span>
+            <span class="chip mono">Nelagadahalli, Bengaluru 560073</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========================================================== programme -->
+<section class="section" id="programme">
+  <div class="shell">
+    <div class="section-head">
+      <span class="eyebrow">How the fellowship runs</span>
+      <h2>Built for one candidate, reviewed like a production team</h2>
+      <p>
+        Srinivas of Whitefield, Bengaluru, is the sole mentee of this cohort. Every session is live, every
+        week ends in a committed artefact, and nothing is marked complete on trust alone.
+      </p>
+    </div>
+
+    <div class="grid g3">
+      <div class="card">
+        <h3>Directing mentor</h3>
+        <p class="muted" style="font-size:.93rem;margin:0">
+          <b style="color:var(--text)">Mallikarjun S Nandyal</b> — Director of Nammaweb AI Research Labs and
+          Principal Systems Architect. He sets the weekly brief, reviews the code line by line on Fridays and
+          chairs the milestone defences.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Two phases, one gate</h3>
+        <p class="muted" style="font-size:.93rem;margin:0">
+          Phase 1 builds the theory and the sovereign-edge stack. Phase 2 is a production workshop and
+          placement push. Entry to Phase 2 requires 80% in the week 12 technical defence.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Proof over attendance</h3>
+        <p class="muted" style="font-size:.93rem;margin:0">
+          Progress is measured in repositories, latency numbers and recall scores. The certificate is issued
+          against submitted artefacts, not hours logged.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Sovereign by default</h3>
+        <p class="muted" style="font-size:.93rem;margin:0">
+          Half the programme runs on hardware you own — quantized models, local vector stores, air-gapped
+          retrieval. Useful when the data cannot leave the building.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Bengaluru placement work</h3>
+        <p class="muted" style="font-size:.93rem;margin:0">
+          The final month is résumé rewriting in metrics, published case studies, a 40-company target list
+          and fifty timed technical drills.
+        </p>
+      </div>
+      <div class="card">
+        <h3>What you need before week 1</h3>
+        <p class="muted" style="font-size:.93rem;margin:0">
+          Working knowledge of JavaScript and the MERN stack, comfort with Git, and a machine with 16 GB RAM.
+          No prior Python or machine-learning background is assumed.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================== syllabus -->
+<section class="section" id="syllabus">
+  <div class="shell">
+    <div class="section-head">
+      <span class="eyebrow">Curriculum</span>
+      <h2>Twenty-four weeks, opened up</h2>
+      <p>
+        Expand any week for its topics and its deliverable. Tick weeks off as they close — the checklist is
+        saved in this browser, so it survives a refresh.
+      </p>
+    </div>
+
+    <div class="filters" id="syllabus-filters" role="group" aria-label="Filter curriculum by phase">
+      <button class="filter" type="button" data-phase="all" aria-pressed="true">All 24 weeks</button>
+      <button class="filter" type="button" data-phase="1" aria-pressed="false">Phase 1 · Theory &amp; Sovereign Edge</button>
+      <button class="filter" type="button" data-phase="2" aria-pressed="false">Phase 2 · Production Workshop &amp; Placement</button>
+    </div>
+
+    <div class="progress-wrap">
+      <div class="progress-bar" role="progressbar" aria-label="Curriculum progress"><div class="progress-fill" id="progress-fill"></div></div>
+      <span class="mono faint" id="progress-label" style="font-size:.82rem">0 of 24 weeks marked complete · 0%</span>
+      <button class="btn btn-ghost btn-sm" type="button" id="reset-progress">Clear checklist</button>
+    </div>
+
+    <div id="syllabus-modules"></div>
+  </div>
+</section>
+
+<!-- ============================================================ careers -->
+<section class="section" id="careers">
+  <div class="shell">
+    <div class="section-head">
+      <span class="eyebrow">Job horizon</span>
+      <h2>What the portfolio is aimed at</h2>
+      <p>
+        Indicative Bengaluru compensation bands for engineers with shipped generative-AI systems and
+        measurable latency and retrieval numbers. Ranges are market observations, not an offer or a guarantee.
+      </p>
+    </div>
+    <div class="grid g3" id="roles-grid"></div>
+    <p class="faint" style="font-size:.82rem;margin-top:20px">
+      Placement support is coaching, introductions and preparation. Nammaweb AI Research Labs does not
+      guarantee employment or a salary outcome.
+    </p>
+  </div>
+</section>
+
+<!-- ============================================================== enrol -->
+<section class="section" id="enrol">
+  <div class="shell">
+    <div class="section-head">
+      <span class="eyebrow">Enrolment and fees</span>
+      <h2>Applied Generative AI Systems Fellowship (AGAI-SF)</h2>
+      <p>Six months of one-to-one mentorship. Pay in full, or start with the Phase 1 milestone instalment.</p>
+    </div>
+
+    <div class="pay-grid">
+      <div class="card card-accent">
+        <div class="fee-options">
+          <label class="fee-option selected">
+            <input type="radio" name="fee" value="45000" checked>
+            <span>
+              <span class="amt">₹45,000</span>
+              <span class="desc">Full programme, paid once. Covers both phases, all three capstones, the week 12 defence and the placement month.</span>
+            </span>
+          </label>
+          <label class="fee-option">
+            <input type="radio" name="fee" value="25000">
+            <span>
+              <span class="amt">₹25,000</span>
+              <span class="desc">Phase 1 milestone instalment. Weeks 1–12. The balance of ₹20,000 falls due before week 13 once the defence is cleared.</span>
+            </span>
+          </label>
+        </div>
+
+        <div class="kv"><span>Programme</span><b>AGAI-SF · 6 months · 1:1</b></div>
+        <div class="kv"><span>UPI ID</span><b>mallikarjunns007-1@oksb</b></div>
+        <div class="kv"><span>GPay / PhonePe</span><b>9241527429</b></div>
+        <div class="kv"><span>Payee</span><b>Nammaweb AI Research Labs</b></div>
+        <div class="kv"><span>Selected amount</span><b id="pay-amount">₹45,000</b></div>
+
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:18px">
+          <button class="btn btn-ghost btn-sm" type="button" id="copy-upi">
+            <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+            Copy UPI ID
+          </button>
+          <button class="btn btn-ghost btn-sm" type="button" id="copy-phone">Copy mobile number</button>
+          <a class="btn btn-primary btn-sm" id="open-upi" href="upi://pay">Open in GPay / PhonePe</a>
+        </div>
+        <p class="faint" style="font-size:.78rem;margin:12px 0 0">
+          The app button works on a phone with a UPI app installed. On a desktop, scan the code instead.
+        </p>
+      </div>
+
+      <div class="card qr-panel">
+        <div class="qr-frame">
+          <img id="upi-qr" width="240" height="240" alt="UPI QR code" src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&amp;data=upi%3A%2F%2Fpay%3Fpa%3Dmallikarjunns007-1%40oksb%26pn%3DNammaweb%2520AI%2520Research%2520Labs%26am%3D45000%26cu%3DINR%26tn%3DSrinivas%2520Mentorship%2520Fellowship">
+        </div>
+        <p class="muted" style="font-size:.88rem;margin:0 auto" id="qr-note">Scan with any UPI app to pay ₹45,000</p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:24px">
+      <h3>Confirm the payment</h3>
+      <p class="muted" style="font-size:.92rem">
+        After paying, record the UPI transaction reference here. It is stored on this device and shown to the
+        mentor at the next session for verification.
+      </p>
+      <form id="utr-form" novalidate>
+        <div class="grid g2" style="gap:14px">
+          <div class="field">
+            <label for="utr-id">UPI transaction / UTR reference</label>
+            <input class="input" id="utr-id" type="text" inputmode="numeric" placeholder="e.g. 412345678901" autocomplete="off">
+          </div>
+          <div class="field">
+            <label for="utr-name">Name on the paying account</label>
+            <input class="input" id="utr-name" type="text" placeholder="Srinivas" autocomplete="name">
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Record payment reference</button>
+      </form>
+      <div id="payment-record"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================================================== command centre -->
+<section class="section" id="command-centre">
+  <div class="shell">
+    <div class="section-head">
+      <span class="eyebrow">Mentee command centre</span>
+      <h2>The workbench behind the login</h2>
+      <p>
+        Assignment submissions, the 1:1 schedule, reference library, capstone architecture and the mentor's
+        notes. Available to the enrolled mentee.
+      </p>
+    </div>
+
+    <!-- locked -->
+    <div class="locked-note" data-when="out">
+      <svg class="ico-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+        <rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 118 0v3"/>
+      </svg>
+      <div style="flex:1;min-width:220px">
+        <h3 style="margin-bottom:4px">This area is for the enrolled mentee</h3>
+        <p class="muted" style="margin:0;font-size:.93rem">
+          Sign in with the fellowship username and four-digit PIN issued at enrolment to open the workbench.
+        </p>
+      </div>
+      <button class="btn btn-primary" type="button" data-open-login>Open mentee login</button>
+    </div>
+
+    <!-- unlocked -->
+    <div data-when="in" class="hidden">
+
+      <div class="grid g2" style="align-items:start">
+        <div class="card">
+          <h3>Weekly assignment submissions</h3>
+          <p class="muted" style="font-size:.9rem">
+            Submit the repository and the measured numbers. The mentor moves a row to Approved after the
+            Friday review.
+          </p>
+          <div class="table-scroll">
+            <table class="data">
+              <thead><tr><th>Week</th><th>Submission</th><th>Repo</th><th>Benchmark</th><th>Status</th></tr></thead>
+              <tbody id="assign-rows"></tbody>
+            </table>
+          </div>
+
+          <form id="assign-form" style="margin-top:22px" novalidate>
+            <div class="grid g2" style="gap:14px">
+              <div class="field">
+                <label for="assign-week">Week</label>
+                <select class="input" id="assign-week"></select>
+              </div>
+              <div class="field">
+                <label for="assign-title">What you built</label>
+                <input class="input" id="assign-title" type="text" placeholder="Hybrid retriever with RRF layer">
+              </div>
+              <div class="field">
+                <label for="assign-repo">Git repository URL</label>
+                <input class="input" id="assign-repo" type="url" placeholder="https://github.com/…">
+              </div>
+              <div class="field">
+                <label for="assign-metric">Latency or benchmark result</label>
+                <input class="input" id="assign-metric" type="text" placeholder="p95 38 ms · recall@5 0.86">
+              </div>
+            </div>
+            <div style="display:flex;gap:10px;flex-wrap:wrap">
+              <button class="btn btn-primary" type="submit">Submit for review</button>
+              <button class="btn btn-ghost" type="button" id="assign-reset">Reset queue</button>
+            </div>
+          </form>
+        </div>
+
+        <div>
+          <div class="card" style="margin-bottom:20px">
+            <h3>1:1 class schedule</h3>
+            <div class="table-scroll">
+              <table class="data">
+                <thead><tr><th>Day</th><th>Time</th><th>Session</th><th>Focus</th></tr></thead>
+                <tbody id="schedule-rows"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Mentorship notes</h3>
+            <p class="muted" style="font-size:.9rem;margin-bottom:16px">Written after each session by Mallikarjun S Nandyal.</p>
+            <div id="notes-list"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:20px">
+        <h3>Reference library</h3>
+        <p class="muted" style="font-size:.9rem">
+          Four topics worth going deep on. Each opens a curated search so the material stays current rather
+          than pointing at a video that may be taken down.
+        </p>
+        <div id="library-list"></div>
+      </div>
+
+      <div class="card" style="margin-top:20px">
+        <h3>Capstone architecture</h3>
+        <div class="tabs" id="arch-tabs" role="tablist">
+          <button class="tab" type="button" role="tab" data-arch="1" aria-selected="true">Capstone 1 · Document intelligence</button>
+          <button class="tab" type="button" role="tab" data-arch="2" aria-selected="false">Capstone 2 · Edge appliance</button>
+          <button class="tab" type="button" role="tab" data-arch="3" aria-selected="false">Capstone 3 · Intelligence agent</button>
+        </div>
+
+        <!-- ARCH 1 -->
+        <div class="arch-panel" data-arch="1">
+          <svg class="arch-svg" viewBox="0 0 860 330" role="img" aria-label="Architecture of the multi-tenant document intelligence engine">
+            <defs>
+              <marker id="ar" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#10b981"/></marker>
+              <style>
+                .bx { fill: rgba(16,185,129,.07); stroke: #10b981; stroke-width: 1.2; rx: 10; }
+                .bx2 { fill: rgba(6,182,212,.07); stroke: #06b6d4; stroke-width: 1.2; rx: 10; }
+                .tt { fill: #e2e8f0; font: 600 13px 'Plus Jakarta Sans', sans-serif; }
+                .st { fill: #94a3b8; font: 400 11px 'JetBrains Mono', monospace; }
+                .ln { stroke: #10b981; stroke-width: 1.2; fill: none; marker-end: url(#ar); }
+              </style>
+            </defs>
+            <rect class="bx" x="20" y="120" width="160" height="70"/>
+            <text class="tt" x="40" y="150">React 19 client</text>
+            <text class="st" x="40" y="170">Suspense · streaming</text>
+
+            <rect class="bx" x="230" y="120" width="170" height="70"/>
+            <text class="tt" x="250" y="150">FastAPI gateway</text>
+            <text class="st" x="250" y="170">JWT · tenant filter</text>
+
+            <rect class="bx2" x="450" y="30" width="170" height="70"/>
+            <text class="tt" x="470" y="60">Celery workers</text>
+            <text class="st" x="470" y="80">parse · chunk · embed</text>
+
+            <rect class="bx2" x="450" y="130" width="170" height="70"/>
+            <text class="tt" x="470" y="160">Qdrant</text>
+            <text class="st" x="470" y="180">per-tenant payloads</text>
+
+            <rect class="bx2" x="450" y="230" width="170" height="70"/>
+            <text class="tt" x="470" y="260">Mistral-7B</text>
+            <text class="st" x="470" y="280">local inference</text>
+
+            <rect class="bx" x="680" y="130" width="160" height="70"/>
+            <text class="tt" x="700" y="160">Audit store</text>
+            <text class="st" x="700" y="180">every query logged</text>
+
+            <path class="ln" d="M182 155 H226"/>
+            <path class="ln" d="M402 150 C 425 150, 425 65, 446 65"/>
+            <path class="ln" d="M402 158 H446"/>
+            <path class="ln" d="M402 166 C 425 166, 425 265, 446 265"/>
+            <path class="ln" d="M622 165 H676"/>
+          </svg>
+          <p class="muted" style="font-size:.88rem;margin-top:12px">
+            Tenancy is enforced at the query layer, not the UI. Every retrieval and every generated answer is
+            written to the audit store with the tenant id, the retrieved chunk ids and the model version.
+          </p>
+        </div>
+
+        <!-- ARCH 2 -->
+        <div class="arch-panel hidden" data-arch="2">
+          <svg class="arch-svg" viewBox="0 0 860 300" role="img" aria-label="Architecture of the offline edge diagnostic appliance">
+            <defs>
+              <marker id="ar2" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#06b6d4"/></marker>
+              <style>
+                .bxc { fill: rgba(6,182,212,.07); stroke: #06b6d4; stroke-width: 1.2; rx: 10; }
+                .bxe { fill: rgba(16,185,129,.07); stroke: #10b981; stroke-width: 1.2; rx: 10; }
+                .ttc { fill: #e2e8f0; font: 600 13px 'Plus Jakarta Sans', sans-serif; }
+                .stc { fill: #94a3b8; font: 400 11px 'JetBrains Mono', monospace; }
+                .lnc { stroke: #06b6d4; stroke-width: 1.2; fill: none; marker-end: url(#ar2); }
+                .dash { stroke: #64748b; stroke-width: 1; stroke-dasharray: 5 5; fill: none; }
+              </style>
+            </defs>
+            <rect class="dash" x="16" y="16" width="620" height="268" rx="14"/>
+            <text class="stc" x="34" y="40">device boundary — no network required</text>
+
+            <rect class="bxc" x="46" y="70" width="170" height="70"/>
+            <text class="ttc" x="66" y="100">PWA shell</text>
+            <text class="stc" x="66" y="120">service worker cache</text>
+
+            <rect class="bxc" x="46" y="180" width="170" height="70"/>
+            <text class="ttc" x="66" y="210">IndexedDB</text>
+            <text class="stc" x="66" y="230">records · deferred sync</text>
+
+            <rect class="bxe" x="260" y="70" width="170" height="70"/>
+            <text class="ttc" x="280" y="100">llama.cpp</text>
+            <text class="stc" x="280" y="120">GGUF Q4_K_M</text>
+
+            <rect class="bxe" x="260" y="180" width="170" height="70"/>
+            <text class="ttc" x="280" y="210">IndicTrans2</text>
+            <text class="stc" x="280" y="230">Kannada ⇄ English</text>
+
+            <rect class="bxc" x="466" y="125" width="150" height="70"/>
+            <text class="ttc" x="486" y="155">Diagnostic flow</text>
+            <text class="stc" x="486" y="175">grammar-bound JSON</text>
+
+            <rect class="bxe" x="680" y="125" width="160" height="70"/>
+            <text class="ttc" x="700" y="155">Sync server</text>
+            <text class="stc" x="700" y="175">optional · when online</text>
+
+            <path class="lnc" d="M218 105 H256"/>
+            <path class="lnc" d="M218 215 H256"/>
+            <path class="lnc" d="M432 110 C 450 110, 450 150, 462 150"/>
+            <path class="lnc" d="M432 210 C 450 210, 450 170, 462 170"/>
+            <path class="dash" d="M640 160 H676"/>
+          </svg>
+          <p class="muted" style="font-size:.88rem;margin-top:12px">
+            Everything inside the dashed boundary runs with the radio off. The sync server is optional and the
+            appliance is fully usable if it is never reachable.
+          </p>
+        </div>
+
+        <!-- ARCH 3 -->
+        <div class="arch-panel hidden" data-arch="3">
+          <svg class="arch-svg" viewBox="0 0 860 320" role="img" aria-label="Architecture of the autonomous competitive intelligence agent">
+            <defs>
+              <marker id="ar3" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#10b981"/></marker>
+              <style>
+                .n { fill: rgba(16,185,129,.07); stroke: #10b981; stroke-width: 1.2; rx: 10; }
+                .n2 { fill: rgba(6,182,212,.07); stroke: #06b6d4; stroke-width: 1.2; rx: 10; }
+                .t { fill: #e2e8f0; font: 600 13px 'Plus Jakarta Sans', sans-serif; }
+                .s { fill: #94a3b8; font: 400 11px 'JetBrains Mono', monospace; }
+                .l { stroke: #10b981; stroke-width: 1.2; fill: none; marker-end: url(#ar3); }
+              </style>
+            </defs>
+            <rect class="n2" x="24" y="125" width="150" height="70"/>
+            <text class="t" x="44" y="155">Next.js 15</text>
+            <text class="s" x="44" y="175">server actions</text>
+
+            <rect class="n" x="220" y="30" width="150" height="62"/>
+            <text class="t" x="240" y="58">Plan</text>
+            <text class="s" x="240" y="78">decompose brief</text>
+
+            <rect class="n" x="220" y="128" width="150" height="62"/>
+            <text class="t" x="240" y="156">Gather</text>
+            <text class="s" x="240" y="176">Playwright crawl</text>
+
+            <rect class="n" x="220" y="226" width="150" height="62"/>
+            <text class="t" x="240" y="254">Verify</text>
+            <text class="s" x="240" y="274">source check</text>
+
+            <rect class="n2" x="430" y="128" width="160" height="62"/>
+            <text class="t" x="450" y="156">LangGraph state</text>
+            <text class="s" x="450" y="176">cycle + stop rules</text>
+
+            <rect class="n2" x="650" y="60" width="180" height="62"/>
+            <text class="t" x="670" y="88">WeasyPrint report</text>
+            <text class="s" x="670" y="108">typeset PDF</text>
+
+            <rect class="n2" x="650" y="196" width="180" height="62"/>
+            <text class="t" x="670" y="224">Scheduler</text>
+            <text class="s" x="670" y="244">weekly · cost ceiling</text>
+
+            <path class="l" d="M176 158 H216"/>
+            <path class="l" d="M372 61 C 400 61, 400 150, 426 150"/>
+            <path class="l" d="M372 159 H426"/>
+            <path class="l" d="M372 257 C 400 257, 400 170, 426 170"/>
+            <path class="l" d="M592 150 C 620 150, 620 92, 646 92"/>
+            <path class="l" d="M592 166 C 620 166, 620 226, 646 226"/>
+          </svg>
+          <p class="muted" style="font-size:.88rem;margin-top:12px">
+            The graph cycles between gathering and verifying until the stop condition is met or the cost
+            ceiling is reached. Every claim in the PDF carries the URL it came from.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================== certificate -->
+<section class="section" id="certificate">
+  <div class="shell">
+    <div class="section-head no-print">
+      <span class="eyebrow">On completion</span>
+      <h2>Certificate of Fellowship</h2>
+      <p>
+        Issued once all 24 weeks and three capstones are signed off. The verification hash below is derived
+        from the candidate and programme record.
+      </p>
+    </div>
+
+    <div class="certificate" id="certificate-card">
+      <div class="cert-top">
+        <img src="assets/img/nammaweb-logo.png" alt="">
+        <span class="cert-org">Nammaweb AI Research Labs</span>
+      </div>
+      <div class="cert-reg">ISO 21001:2018 Certified &nbsp;·&nbsp; DPIIT Recognised DIPP199820 &nbsp;·&nbsp; Bengaluru, India</div>
+
+      <div class="cert-kicker">Post-Graduate Executive Fellowship</div>
+      <div class="cert-title">Applied Generative AI Systems</div>
+
+      <p style="text-align:center;color:#5d7370;font-size:.84rem;margin:0">This fellowship is awarded to</p>
+      <div class="cert-name">Srinivas</div>
+      <div class="cert-rule"></div>
+
+      <p class="cert-body-text">
+        for the successful completion of a twenty-four week one-to-one research fellowship covering
+        retrieval architecture, sovereign edge inference, agentic state machines and multimodal document
+        intelligence, including three deployed enterprise capstone systems and a live technical defence
+        conducted before the Director.
+      </p>
+
+      <div class="cert-foot">
+        <div class="cert-sign">
+          <div class="line"><b>Mallikarjun S Nandyal</b></div>
+          <span>Director, Nammaweb AI Research Labs</span>
+          <span>Principal Systems Architect</span>
+        </div>
+        <div class="cert-qr">
+          <img id="cert-qr-img" width="96" height="96" alt="">
+          <span>Scan to verify</span>
+        </div>
+        <div class="cert-sign">
+          <div class="line"><b>AGAI-SF · 24 Weeks</b></div>
+          <span>Applied Generative AI Systems Fellowship</span>
+          <span>Whitefield, Bengaluru</span>
+        </div>
+      </div>
+
+      <div class="cert-hash" id="cert-hash"></div>
+    </div>
+
+    <div class="no-print" style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:24px">
+      <button class="btn btn-primary" type="button" id="print-cert">Print or save as PDF</button>
+      <button class="btn btn-ghost" type="button" id="copy-hash">Copy verification hash</button>
+    </div>
+    <p class="faint center no-print" style="font-size:.8rem;margin-top:14px">
+      Preview only. The issued certificate carries a signed verification record held by Nammaweb AI Research Labs.
+    </p>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================================================= footer -->
+<footer class="site">
+  <div class="shell">
+    <div class="foot-grid">
+      <div>
+        <div class="brand" style="margin-bottom:12px">
+          <img src="assets/img/nammaweb-logo.png" alt="" style="width:44px;height:44px">
+          <span class="brand-text">
+            <b>Nammaweb AI Research Labs</b>
+            <span>Born to Innovate. Built to Inspire.</span>
+          </span>
+        </div>
+        <p class="muted" style="font-size:.88rem;max-width:40ch">
+          A unit of Nammaweb LLP. 3rd Cross, Nagasandra, 1st C Main Road, Nelagadahalli,
+          Bengaluru, Karnataka 560073.
+        </p>
+      </div>
+      <div>
+        <h4>Programme</h4>
+        <ul>
+          <li><a href="#programme">How it runs</a></li>
+          <li><a href="#syllabus">24-week curriculum</a></li>
+          <li><a href="#careers">Career outcomes</a></li>
+          <li><a href="#certificate">Certificate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Enrolment</h4>
+        <ul>
+          <li><a href="#enrol">Fees and payment</a></li>
+          <li><a href="tel:+919241527429">+91 92415 27429</a></li>
+          <li><span class="muted mono" style="font-size:.82rem">mallikarjunns007-1@oksb</span></li>
+          <li><a href="#recognition">Recognition records</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year">2026</span> Nammaweb LLP · DPIIT DIPP199820 · ISO 21001:2018</span>
+      <span>Directing mentor: Mallikarjun S Nandyal</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ======================================================= login modal -->
+<div class="overlay" id="login-overlay" role="dialog" aria-modal="true" aria-labelledby="login-title">
+  <div class="modal-wrap">
+    <div class="modal">
+      <button class="modal-close" type="button" data-close-login aria-label="Close login">×</button>
+      <span class="eyebrow">Mentee 1:1 access</span>
+      <h3 id="login-title">Sign in to the command centre</h3>
+      <p class="muted" style="font-size:.9rem">
+        Use the fellowship username and the four-digit PIN issued at enrolment.
+      </p>
+      <form id="login-form" novalidate>
+        <div class="field">
+          <label for="login-user">Username</label>
+          <input class="input" id="login-user" type="text" autocomplete="username" placeholder="srinivas">
+        </div>
+        <div class="field">
+          <label for="login-pass">PIN</label>
+          <input class="input" id="login-pass" type="password" inputmode="numeric" autocomplete="current-password" placeholder="••••">
+        </div>
+        <div class="form-error" id="login-error" role="alert"></div>
+        <button class="btn btn-primary btn-block" type="submit" style="margin-top:8px">Sign in</button>
+      </form>
+      <p class="hint" style="margin-top:14px">
+        Access is granted on this device only. Nothing is sent to a server.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="toasts" id="toasts" aria-live="polite"></div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
